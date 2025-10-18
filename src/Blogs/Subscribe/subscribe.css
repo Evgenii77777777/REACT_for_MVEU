@@ -1,0 +1,14 @@
+.subscribe-form {
+    border: 1px solid #ebe1e1;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.subscribe-form label {
+    display: inline-block;
+    width: 100px;
+}
+
+.subscribe-form > div {
+    margin-bottom: 12px;
+}

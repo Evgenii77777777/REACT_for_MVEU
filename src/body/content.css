@@ -1,0 +1,34 @@
+.main__content {
+    max-width: 1140px;
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 24px 15px;
+}
+
+.ticketCause {
+    margin-left: -12px;
+    margin-bottom: 8px;
+}
+
+.nav {
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.ticketCause__item {
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.ticketCause__item .btn {
+    font-size: 14px;
+    padding: 8px;
+    line-height: 1;
+    min-width: 100px;
+    border-radius: 4px;
+}

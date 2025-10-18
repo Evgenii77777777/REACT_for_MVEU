@@ -1,0 +1,46 @@
+body {    
+    margin: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    color: #1e2128;
+    overflow-y: scroll;
+}
+
+.admin header {
+    background-color: antiquewhite;
+    height: calc(100vh - 1px);
+    margin-right: 12px;
+}
+
+.admin header > a {
+    margin: 20px;
+    display: block;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.admin label {
+    display: block;
+}
+
+.admin input, .admin textarea  {
+    width: 100%;
+}
+
+.admin table {
+    width: 100%;
+    text-align: center;
+}
+
+.admin thead {
+    font-weight: 700;
+    width: 30%;
+}
+
+.admin table, .admin th, .admin td {
+    border: 1px solid;
+}

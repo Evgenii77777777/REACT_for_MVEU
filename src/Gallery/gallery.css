@@ -1,0 +1,18 @@
+.gallery-photos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery-select {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    min-width: 90vw;
+
+    @media (min-width: 700px) {
+        min-width: 500px;
+    }
+}

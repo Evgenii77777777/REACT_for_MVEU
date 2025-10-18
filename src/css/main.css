@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    color: #1e2128;
+    overflow-y: scroll;
+    background-color: #f0f8ff;
+}
+
+.container {
+    padding: 20px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+
+    @media (min-width: 990px) {
+        width: 900px;
+    }
+}
+
+button {
+    padding: 4px 12px;
+}
+
+.sended-form {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(2, 160, 2);
+    padding: 10px;
+}

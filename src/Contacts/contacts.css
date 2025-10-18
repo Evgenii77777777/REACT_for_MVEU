@@ -1,0 +1,12 @@
+.contact-map {
+    height: 500px;
+}
+
+.contact-form label {
+    display: inline-block;
+    width: 100px;
+}
+
+.contact-form > div {
+    margin-bottom: 12px;
+}
